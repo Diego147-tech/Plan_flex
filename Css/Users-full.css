@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    display: flex;
+    background-color: #272944;
+    height: 100vh;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+    margin: 20px 10px 20px 20px;
+    border-radius: 3rem;
+    background-color: #363853;
+    align-items: baseline;
+}
+
+#contenido{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 20px 20px 20px 10px;
+}
+
+.contenido{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Decoración aside */
+
+#menu li{
+    display: flex;
+    padding: 9px;
+    font-size: 17px;
+    list-style: none;
+    color: rgba(245, 245, 245, 0.712);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Decoracion circulo de la parte de arriba */
+
+.lin{
+    display: flex;
+    align-self: center;
+    background-color: gray;
+    border-radius: 7rem;
+    width: 5rem;
+    height: 4.9rem;
+}
+.lin2{
+    display: flex;
+    padding: 2rem 3.5rem;
+}
+.imag{
+    background-color: #404bda;
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-top: 2.5rem;
+    border-radius: 40px;
+}
+
+.lin h2{
+   font-size: 2.2rem;
+    align-self: center;
+}
+
+#menu > .board{
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+}
+
+.board i{
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+#menu > .config{
+    padding-top: 6rem;
+    padding-left: 2.5rem;
+}
+
+.config i{
+    margin-right: 0.5rem;
+}
+
+/* Decoracion seccion de contendio */
+
+/* Seccion superior */
+#search{
+    display: flex;
+    width: 26rem;
+    height: 2.1rem;
+    align-items: center;
+    background-color: #363853;
+    border-radius: 20px;
+}
+
+#search i{
+    margin: 0rem 0.5rem 0rem 1rem;
+    color: gray;
+}
+
+#search p{
+    color: gray;
+}
+
+#fill{
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+
+    align-items: center;
+}
+
+.fill2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50px;
+}
+
+.con_entero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    height:30px;
+    width: 30px;
+    border-radius: 15px;
+}
+
+
+#entero2 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+/* Comienzo de proceso para el diseño de articulos y scrull */
+
+/* Decoracion para titulo de usuarios */
+.title{
+    display: flex;
+    justify-content: space-between;
+    height: 2.2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.title h2{
+    color: #f9f9fa;
+    font-size: 35px;
+}
+
+.types{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #363853;
+    padding: 1rem 1.5rem;
+}
+
+.types p{
+    color: #f9f9fa;
+    align-self: center;
+    margin-right: 0.9rem;
+}
+
+.types i{
+    color: #f9f9fa;
+}
+
+/* Seccion para hacer los articulosy scroll */
+
+#usuarios{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 29.1rem;
+}
+
+.scroll{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+  
+    height: 26.5rem;
+}
+article{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0rem;
+    padding-right: 2.5rem;
+    padding-left: 1rem;
+
+}
+
+article p{
+    align-self: center;
+    text-align:start;
+}
+
+
+.role{
+    margin-right: -3rem;
+}
+.date{
+    margin-right: -5rem;
+    text-align: end;
+}
+
+.roles{
+    color: gray;
+    font-size: 15px;
+    padding: 0.5rem 0rem;
+    padding-right: 6rem;
+    padding-left: 4rem;
+}
+
+.info p{
+    color: aliceblue;
+}
+.info  .fecha{
+    color: rgba(128, 128, 128, 0.466);
+}
+.encajar{
+    display: flex;
+    margin-right: 1.5rem;
+}
+
+/* Encajar imagenes */
+.encajar img{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.info i{
+    align-self: center;
+}
+.rol i{
+    margin-right: 0.5rem;
+}
+
+.tres{
+    color: #f9f9fa;
+    align-self: center;
+}
+
+
+
+button{
+    align-self: center;
+    text-align: center;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 20px;
+    color: #f9f9fa;
+    margin-right: -2rem;
+    width: 4.5rem;
+    height: 1.5rem;
+}
+
+#diferencia{
+    background-color: rgba(128, 128, 128, 0.164);
+}
+/* Diseño individual para nombres */
+
+
+/* Seccion de ana */
+.nombreanna{
+    margin-left: 1rem;
+}
+.emailanna{
+    margin-left: 2.5rem;
+}
+.info .fechaanna{
+    margin: 0rem 1rem 0rem 2rem;
+    color: rgba(128, 128, 128, 0.466);
+}
+
+/* Artculo sabellas */
+.info .fechasave{
+   margin-left: -2rem;
+   margin-right: 1rem;
+   color: rgba(128, 128, 128, 0.466);
+}
+
+/* Articulo enver */
+.info .fechaever{
+    margin-left: 2rem;
+    color: rgba(128, 128, 128, 0.466);;
+}
+.nombremica{
+    margin-left: -1rem;
+}
+.nombresamu{
+    margin-left: -3rem;
+}
+.emailsabe{
+    margin-left: -0.5rem;
+}
+
+.email{
+    margin-left: 2.8rem;
+}
+/* Articulo nata */
+.emailnata{
+    margin-left: 2.8rem;
+}
+
+/* Articulo breno */
+
+
+.emailtho{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+
+
+.info .fechanata{
+    margin-left: 2.5rem;
+    margin-right: 1rem;
+    color: rgba(128, 128, 128, 0.466);;
+}
+/* articulo samu */
+.info .fechasamu{
+    margin-left: -2rem;
+    color: rgba(128, 128, 128, 0.466);
+}
+
+/* Artculo lizza */
+.info .fechaliza{
+    margin-left: 0.5rem;
+    color: rgba(128, 128, 128, 0.466);
+}
+
+
+/* Articulo thomas */
+.info .fechathoma{
+    margin-left: -2.5rem;
+    color: rgba(128, 128, 128, 0.466);
+}
+
+/* Articulo darek */
+.info .fechadarek{
+    margin-left: 2rem;
+    color: rgba(128, 128, 128, 0.466);
+}
+
+
+/*  Articulo anna 2*/
+.info .fechapatrik{
+    margin-left: 4rem;
+    color: rgba(128, 128, 128, 0.466);
+}
+
+.nombreyely {
+  margin-left: 0.5rem;
+} 
+.nombredarek{
+    margin-left: 1rem;
+}
+
+/* FECHAS */
+
+
+#art1 > .rol{
+    color: #404bda;
+}
+
+#art5 >.rol{
+    color: #404bda;
+}
+
+
+#art9 > .rol{
+    color: #404bda;
+}
+#art8 > .rol{
+    color: #404bda;
+}
+#art3 > .rol{
+    color: red;
+}
+
+
+
+
+
+
+/* Diseño del Scroll */
+.scroll::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.scroll::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.scroll::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.scroll::-webkit-scrollbar:horizontal {
+    height: 5px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background-color: #363853;
+    border-radius: 20px;
+   
+}

@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-color: #272944;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    flex: 0.1;
+    margin: 20px 10px 20px 20px;
+    border-radius: 3rem;
+    background-color: #363853;
+    align-items: baseline;
+}
+
+#contenido{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 20px 20px 20px 10px;
+}
+
+.contenido{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Decoración aside */
+
+#menu li{
+    display: flex;
+    padding: 9px;
+    font-size: 17px;
+    list-style: none;
+    color: rgba(245, 245, 245, 0.712);
+}
+
+/* Decoracion circulo de la parte de arriba */
+
+.lin{
+    display: flex;
+    align-self: center;
+    background-color: gray;
+    border-radius: 7rem;
+    width: 5rem;
+    height: 4.9rem;
+}
+.lin2{
+    display: flex;
+    padding: 2rem 3.5rem;
+}
+.imag{
+    background-color: #404bda;
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-top: 2.5rem;
+    border-radius: 40px;
+}
+
+.lin h2{
+   font-size: 2.2rem;
+    align-self: center;
+}
+
+#menu > .board{
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+.board i{
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+#menu > .config{
+    padding-top: 6rem;
+    padding-left: 2.5rem;
+}
+
+.config i{
+    margin-right: 0.5rem;
+}
+
+
+/* Decoracion seccion de contendio */
+
+/* Seccion superior */
+#search{
+    display: flex;
+    width: 26rem;
+    height: 2.1rem;
+    align-items: center;
+    background-color: #363853;
+    border-radius: 20px;
+}
+
+#search i{
+    margin: 0rem 0.5rem 0rem 1rem;
+    color: gray;
+}
+
+#search p{
+    color: gray;
+}
+
+#fill{
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fill2{
+    display: flex;
+    background-color: #363853;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0rem 0.5rem;
+    width: 60px;
+    height: 30px;
+    color: #f9f9fa;
+}
+
+.con_entero span{
+    background-color: red;
+    position: absolute;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 20px;
+    right: 65px;
+    top: 27px;
+}
+
+.con_entero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #363853;
+    color: #f9f9fa;
+    height:30px;
+    width: 30px;
+    border-radius: 15px;
+}
+#entero2 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+
+/* Contenido de texto (Titulo principal) */
+#posts{
+
+    flex: 1;
+    padding: 0.5rem 0rem;
+}
+
+#titulo{
+    display: flex;
+    height: 2.4rem;
+
+    justify-content: space-between;
+}
+#category{
+    display: flex;
+    justify-content: space-around;
+    width: 31rem;
+    height: 1.5rem;
+    align-self: center;
+    font-size: 13px;
+}
+
+.all{
+    align-self: center;
+}
+.all h2{
+    font-size: 30px;
+}
+
+
+.op1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8.9rem;
+    height: 1.8rem;
+    color: #f9f9fa;
+    background-color: #363853;
+    border-radius: 20px;
+}
+.op1 i{
+    margin-left: 0.5rem;
+}
+.op2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9rem;
+    height: 1.8rem;
+    color: #f9f9fa;
+    background-color: #363853;
+    border-radius: 20px;
+}
+.op2 i{
+    margin-left: 2rem;
+}
+.op3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8.8rem;
+    height: 1.8rem;
+    color: #f9f9fa;
+    background-color: #363853;
+    border-radius: 20px;
+}
+
+.op3 i{
+    margin-left: 1.5rem;
+}
+
+
+/* Distribuciones de articulos */
+#dobles{
+    display: flex;
+    height: 32.8rem;
+    padding: 0rem 0.3rem;
+}
+
+#dobles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: auto;
+}
+.contenedores{
+    display: flex;
+    flex-direction: column;
+    background-color: #363853;
+    border-radius: 1.5rem;
+    margin: 20px 0px 0px 0px;
+
+    width: 21rem;
+    height: 19rem;
+}
+
+.contenedores img{
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 21rem;
+    height: 8.7rem;
+}
+
+.contenedores > .active{
+    background-color: #08be39;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 2rem;
+    width: 4.5rem;
+    height: 1.5rem;
+    margin: -2.3rem 0rem 1rem 1.2rem;
+}
+
+.contenedores > .active2{
+    background-color: orangered;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 2rem;
+    width: 4.5rem;
+    height: 1.5rem;
+    margin: -2.3rem 0rem 1rem 1.2rem;
+}
+
+.general{
+    padding: 1.1rem 1.2rem;
+}
+
+/* Seccion para el contenido de quien es el articulo  */
+.persona{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.persona p{
+    font-size: 13px;
+    color: gray;
+}
+.persona img{
+    width: 23px;
+    height: 23px;
+    border-radius: 20px;
+}
+
+#name p{
+    color: #f9f9fa;
+}
+#name{
+    display: flex;
+    width: 7.2rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedores h2{
+    font-size: 18.4px;
+    padding-top: 0.5rem;
+    color: #f9f9fa;
+    text-align: justify;
+}
+
+.trends{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    
+}
+
+.trends span{
+    width: 7.2rem;
+    height: 1.8rem;
+    border-radius: 18px;
+}
+
+.button1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(63, 16, 63);
+    border: 2px solid rgb(63, 16, 63);
+}
+
+.button2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(68, 223, 29);
+    color: rgb(68, 223, 29);
+}
+
+.trends ul{
+    display: flex;    
+    justify-content: space-around;
+    width: 9rem;
+}
+
+.trends li{
+    list-style: none;
+    align-self: center;
+    color: #f9f9fa;
+}
+.trends i{
+    margin-right: 0.2rem;
+    
+}
+
+
+#sect6 h2{
+     padding-bottom: 1rem;
+    
+}
+
+
+
+
+
+
+
+
+
+/* DECORACION SCROLL MAS DISEÑADO */
+#dobles::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+
+#dobles::-webkit-scrollbar:vertical {
+    width: 9px;
+}
+
+#dobles::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+#dobles::-webkit-scrollbar:horizontal {
+    height: 5px;
+}
+
+#dobles::-webkit-scrollbar-thumb {
+    background-color: #363853;
+    border-radius: 20px;
+   
+}
+
+

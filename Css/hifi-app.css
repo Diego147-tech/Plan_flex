@@ -1,0 +1,505 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* SECCION DECORATIVA PARA HACER EL INDEX */
+
+/* DISEÑO */
+#body1{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+    background-image: url(../img/secretaria.png);
+    background-size: cover;
+    background-position: center center;
+}
+.wifi{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 1rem;
+    color: #f9f9fa;
+}
+
+.wolf{
+    margin-top: 18rem;
+    text-align: center;
+    color: #f9f9fa;
+    font-size: 18px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.wolf h1{
+    font-size: 27px;
+}
+.wolf p{
+    font-size: 16px;
+    text-align: center;
+    padding: 0rem 0.5rem;
+}
+
+.saturno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.saturno i{
+    font-size: 2.2rem;
+    margin-right: 0.5rem;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.botones button{
+    border-radius: 0.5rem;
+    justify-content: center;
+    height: 2.7rem;
+    padding: 0.5rem;
+    margin-top: 0.8rem;
+}
+
+.register{
+    font-size: 14px;
+    border: none;
+}
+.login1{
+    background-color: rgba(128, 128, 128, 0.712);
+    font-size: 14px;
+    border: none;
+}
+.login1 a{
+    text-decoration: none;
+    color: #f9f9fa;
+}
+.register a{
+    text-decoration: none;
+    color: #404bda;
+}
+
+
+/* SECCION PARA HACER EL DISEÑO DE LOGIN */
+.wifi2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 1rem;
+    color: black;
+}
+
+.titulo1{
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.4rem;
+    padding-bottom: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+.titulo1 a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.titulo1 i{
+    color: #0072ff;
+    background-color: #f9f9fa;
+    font-size: 22px;
+    justify-content: center;
+    align-self: center;
+    margin-right: 0.8rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+#count{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1.4rem;
+}
+#count input{
+    height: 2.2rem;
+    border-radius: 8px;
+    border: none;
+}
+#count label{
+    font-size: 12px;
+    color: gray;
+}
+.gmail{
+    background-color: #0073ff25;
+    padding: 0rem 1.2rem;
+    margin-bottom: 1.2rem;
+    color: rgb(77, 77, 233);
+    font-family: 'Inter', sans-serif;
+}
+.pasword{
+    background-color: #0073ff25;
+    padding: 0rem 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+#account{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1.5rem;
+}
+#account .text1{
+    font-size: 14px;
+    padding-bottom: 1.5rem;
+    font-family: 'Inter', sans-serif;
+}
+#account .login2{
+    height: 2.5rem;
+    font-size: 12px;
+    margin-bottom: 2.5rem;
+    background-color: #0072ff;
+    color: #f9f9fa;
+    border-radius: 10px;
+    border: none;
+}
+
+.espacio1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+.espacio1 div{
+    background-color: black;
+    flex: 1;
+    height: 0.1px;
+    align-self: center;
+}
+.espacio1 p{
+    color: #0072ff;
+    padding: 0rem 0.4rem;
+}
+
+.icono1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+}
+.icono1 div{
+    background-color: #f9f9fa;
+    box-shadow: 0px 0px 1px 0px black;
+    display: flex;
+    justify-content: center;
+    width: 5rem;
+    padding: 0.2rem 0rem;
+    border-radius: 3px;
+}
+.icono1 img{
+    width: 22px;
+    display: flex;
+}
+
+.yet{
+    display: flex;
+
+    flex-direction: column;
+}
+.yet h2{
+    font-size: 14px;
+    text-align: center;  
+    margin-bottom: 0.8rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.yet .register2{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    width: 16.5rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #0073ff42;
+    color: #0072ff;
+}
+
+
+
+
+
+/* SECCION PARA DECORAR EL PROFILE */
+.titulo1{
+    display: flex;
+    justify-content: space-between;
+}
+.mujer img{
+    display: flex;
+    width: 30px;
+    height: 32px;
+    border-radius: 10px;
+}
+.mujer div{
+    position: absolute;
+    top: 2.8rem;
+    right: 1.2rem;
+    background-color: #Fc8eac;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 10px;
+}
+
+
+.info_musk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.info_musk .elon{
+    width: 9rem;
+    height: 9.5rem;
+    border-radius: 17px;
+    margin-bottom: 1rem;
+}
+.info_musk .punto{
+    background-color: #2bec11;
+    border: 2px solid #f9f9fa;
+    position: relative;
+    top: -2rem;
+    left: 8rem;
+    border-radius: 10px;
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.info_musk h2{
+    font-size: 22px;
+    margin-bottom: 0.7rem;
+}
+.africa{
+    display: flex;
+    align-items: center;
+}
+.africa img{
+    width: 20px;
+    height: 14px;
+}
+.africa p{
+    font-size: 18px;
+    color: gray;
+    margin-left: 0.3rem;
+}
+
+#expert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9fa;
+    height: 2.8rem;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#expert .p1{
+    padding-right: 2rem;
+}
+#expert div{
+    background-color: #0657b9;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.3rem;
+}
+
+#expert i{
+    font-size: 12px;
+    color: #f9f9fa;
+}
+#expert p{
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+}
+
+#play{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin-top: 1rem;
+}
+.icono2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem 0rem;
+}
+
+#part1 div{
+    background-color: #84ff8c71;
+    width: 2.3rem;
+    height: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+#part1 i{
+    font-size: 1.5rem;
+    color: #20c902;
+
+}
+#part1 p{
+    font-size: 14px;
+}
+
+/* Seccion 2 */
+#part2 div{
+    background-color: rgba(247, 169, 169, 0.445);
+    width: 2.3rem;
+    height: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+#part2 i{
+    font-size: 1.5rem;
+    color: red;
+
+}
+#part2 p{
+    font-size: 14px;
+}
+
+/* Seccion 3 */
+#part3 div{
+    background-color: rgb(248, 248, 125);
+    width: 2.3rem;
+    height: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+#part3 i{
+    font-size: 1.5rem;
+    color: #e7b40d;
+
+}
+#part3 p{
+    font-size: 14px;
+}
+
+#teaches{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 5.5rem;
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#teaches div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0073ff36;
+    width: 9.5rem;
+    height: 2.1rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+#teaches p{
+    font-size: 15px;
+    color: #0657b9;
+}
+#teaches h2{
+    font-size: 19px;
+    margin-right: 0.7rem;
+}
+
+
+#teaches .div3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0073ff36;
+    width: 6rem;
+    height: 2.1rem;
+    margin-right: 1rem;
+}
+
+#speack{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 4rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+#speack p{
+    display: flex;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+    font-family: 'Inter', sans-serif;
+
+}
+#speack h2{
+    font-size: 17px;
+}
+.native{
+    color: #0072ff;
+    margin-left: -2px;
+}
+
+#float{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 65px;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #0072ff;
+    box-shadow: 0px 1px 4px 1px;
+}
+
+#float{
+    font-size: 25px;
+    color: white;
+}
+#menu_bajo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 3.4rem;
+    background-color: white;
+    box-shadow: 0px 2px 8px 0px black;
+    bottom: 0;
+    overflow: hidden;
+    position: fixed;
+}
+#menu_bajo img{
+    width: 30px;
+}
+
+#menu_bajo i{
+    font-size: 20px;
+}
+
+#account a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #272944;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+    margin: 20px 10px 20px 20px;
+    background-color: #f9f9fa;
+    align-items: baseline;
+}
+
+#contenido{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 20px 20px 20px 10px;
+}
+
+.contenido{
+    display: flex;
+    flex: 0.1;
+    justify-content: space-between;
+}
+/* Decoración aside */
+.fig{
+    background-color: #272944;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 8px;
+    align-self: center;
+}
+
+#menu li{
+    display: flex;
+    padding: 9px;
+    font-size: 17px;
+    list-style: none;
+    color: #363853;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.imag{
+    background-color: #272944;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 40px;
+}
+
+.lin{
+    align-self: center;
+    padding: 2rem;
+}
+#menu > .board{
+    padding-top: 1rem;
+    padding-left: 1.8rem;
+}
+
+#menu > .config{
+    padding-top: 5rem;
+    padding-left: 1.8rem;
+}
+
+
+/* Decoracion seccion de contendio */
+
+/* Seccion superior */
+#search{
+    display: flex;
+    width: 26rem;
+    height: 2rem;
+    align-items: center;
+    background-color: #f9f9fa;
+}
+
+#search > div{
+    background-color: #272944;
+    width: 1rem;
+    height: 1rem;
+    margin: 0px 12px 0px 15px;
+}
+
+#search p{
+    color: gray;
+}
+
+#fill{
+   display: flex;
+   height: 2rem;
+}
+
+.fill2{
+    display: flex;
+    background-color:beige;
+    width: 4.5rem;
+    height: 1.6rem;
+    align-items: center;
+}
+
+.fill2 p{
+    margin-left: 17px;
+    color: #272944;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fill2 div{
+    background-color: #272944;
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-left: 14px;
+}
+
+.con_entero{
+    display: flex;
+}
+.entero{
+    background-color: #272944;
+    width: 2rem;
+    height: 1.8rem;
+    margin-left: 15px;
+    align-items: center;
+}
+
+/* Espacios para el dashboard */
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0.7rem 0rem;
+    padding-top: 1rem;
+}
+
+#visteria{
+    display: flex;
+    justify-content: space-between;
+}
+.vistas h2{
+    color: #272944;
+}
+.vistas p{
+    color: gray;
+}
+.vistas{
+    display: flex;
+    background-color: #f9f9fa;
+    padding: 1.1rem 3.6rem;
+    align-items: center;
+}
+
+.vistas > .justy{
+    display: flex;
+    flex-direction: column;
+}
+.vistas > .recu{
+    background-color: #272944;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: -2rem;
+    margin-right: 15px;
+}
+
+
+/* Decoracion para la parte visitantes y categorias */
+#stadistic{
+    display: flex;
+    flex: 1;
+    padding-top: 20px;
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+}
+#numerales{
+    background-color: #f9f9fa;
+    padding: 13px 0px;
+    width: 15.2rem;
+    height: 4.2rem;
+    color: #272944;
+}
+
+#numerales article{
+    text-align: center;
+}
+#numerales h3{
+    font-size: 18px;
+}
+
+#numerales h1{
+    font-size: 28px;
+}
+
+.cont{
+    color: gray;
+    font-size: 15px;
+    margin-top: -8px;
+    margin-left: 37px;
+}
+
+/* Caracteristicas Carter */
+
+#cater{
+    background-color: #f9f9fa;
+    margin-top: 20px;
+    width: 15.2rem;
+    height: 17rem;
+}
+#cater article{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 28px;
+}
+
+#cater h2{
+    font-size: 15px;
+    padding: 13.5px 14px;
+    padding-bottom: 1px;
+    color: #272944;
+}
+
+#cater p{
+    color: #272944;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.users p{
+    font-size: 12px;
+    color: gray;
+}
+
+/* Vistor decoracion para el primer recuadro*/
+.form2{
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    height: 24rem;
+    margin-left: 3rem;
+}
+
+#vistor{
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9fa;
+    flex: 0.6;
+    padding: 10px;
+}
+
+#vistor h2{
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+#mes{
+    margin-right: 20px;
+}
+#vistor > .color{
+    background-color: gray;
+    width: 46.5rem;
+    height: 8.5rem;
+    margin-left: 15px;
+}
+
+.selec{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+
+/* Segunda seccion para contenedor de vistas */
+#post{
+    background-color: #f9f9fa;
+    margin-top: 10px;
+    flex: 1;
+}
+
+#post .menu_cont{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.8rem;
+    padding-right: 4rem;
+}
+#post .contes{
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 1rem 0rem;
+    padding-left: 0.8rem;
+    padding-right: 2rem;
+}
+
+#post h2{
+    font-size: 20px;
+    padding: 4px 12px;
+}
+.contes button{
+    align-self: center;
+    background-color: #f9f9fa;
+    width: 5rem;
+    height: 1.8rem;
+    color: #272944;
+    border: 3px solid#272944;
+}
+#post p{
+    align-self: center;
+    padding: 2px;
+}
+.lorem{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: 8.6rem;
+}
+
+.contes div{
+    background-color: gray;
+    width: 5rem;
+    height: 3rem;
+}
+
+
+.title{
+    width: 12rem;
+}
+.title2{
+    width: 13.5rem;
+}
+.tit{
+    padding: 0rem 4rem;
+}
+
+.tit p{
+    margin-left: -4rem;
+}
+
+#loked{
+    background-color: rgba(128, 128, 128, 0.24);
+}
